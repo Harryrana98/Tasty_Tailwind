@@ -10,12 +10,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
@@ -27,7 +24,7 @@
         >
           <div class="flex items-center gap-2 lg:gap-">
             <p
-              class="lg:text-4xl text-4xl md:text-3xl font-bold text-red-500 font-serif"
+              class="lg:text-4xl text-4xl md:text-3xl font-bold text-red-500 font-Averia Sans Libre "
             >
               TASTY <span class="text-amber-500">CART</span>
             </p>
@@ -36,7 +33,7 @@
 
           <div class="hidden md:block">
             <ul
-              class="flex gap-4 font-medium items-center xl:gap-6 xl:text-2xl text-lg lg:text-xl text-gray-600"
+              class="flex gap-4 font-medium items-center xl:gap-6  text-lg lg:text-xl text-gray-600"
             >
               <li>
                 <a class="hover:text-red-500 py-1 px-3" href="#home">Home</a>
@@ -60,8 +57,8 @@
               ></i>
             </ul>
           </div>
-          <div>
-            <i class="fa-solid fa-bars md:hidden text-xl"></i>
+          <div class="md:hidden">
+            <i class="fa-solid fa-bars text-xl"></i>
           </div>
         </div>
       </nav>
@@ -86,7 +83,7 @@
       <div id="home">
         <div class="bg-gray-100 relative">
           <div class="md:flex px-5 lg:px-20 items-center pt-5 lg:pt-12 pb-10">
-            <div class="absolute top-0 right-1/2 blur-0 opacity-80 -z-1">
+            <div class="absolute top-0 right-1/2 blur-0 opacity-80 -z-1 sm:hidden md:block hidden">
               <img
                 class="w-full md:w-[300px] rounded-full blur-sm object-contain"
                 src="assets/logo1-1K7yVt-5.jpg"
